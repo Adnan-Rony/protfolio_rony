@@ -9,10 +9,13 @@ import { ContactPage } from "../Contact/ContactPage";
 import { Footer } from "@/Components/Footer";
 import Blog from "../blogs/Blog.jsx";
 
+
 export const Home = () => {
   return (
     <div className="bg-[url('/darkbg.png')] bg-fixed  ">
-      <title>Adnan Rony</title>
+      
+     <div className="max-w-7xl mx-auto px-4">
+       <title>Adnan Rony</title>
       <div className="py-10 md:py-16">
         <Banner></Banner>
       </div>
@@ -21,14 +24,14 @@ export const Home = () => {
         <Education></Education>
       </div>
 
-      <div name="skills" className="py-10 md:py-16">
+      <div id="skills" className="py-10 md:py-16">
         <Skills></Skills>
       </div>
 
       <div id="projects" className="py-10 md:py-16 ">
         <Projects></Projects>
       </div>
-      <div id="contact" className="py-10 md:py-16">
+      <div id="blog" className="py-10 md:py-16">
         <Blog></Blog>
       </div>
       <div id="contact" className="py-10 md:py-16">
@@ -38,6 +41,7 @@ export const Home = () => {
       <div id="" className="pt-10 md:pt-16">
         <Footer></Footer>
       </div>
+     </div>
 
 
     </div>

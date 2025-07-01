@@ -1,12 +1,11 @@
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
-export const Navbar = () => {
+export const NavbarTwo = () => {
   const menu = (
     <>
       <li>
         <ScrollLink
-          activeClass="active"
           to="education"
           smooth={true}
           duration={500}
@@ -17,7 +16,6 @@ export const Navbar = () => {
       </li>
       <li>
         <ScrollLink
-         activeClass="active"
           to="skills"
           smooth={true}
           duration={500}
@@ -28,7 +26,6 @@ export const Navbar = () => {
       </li>
       <li>
         <ScrollLink
-         activeClass="active"
           to="projects"
           smooth={true}
           duration={500}
@@ -39,7 +36,6 @@ export const Navbar = () => {
       </li>
       <li>
         <ScrollLink
-         activeClass="active"
           to="contact"
           smooth={true}
           duration={500}
@@ -49,13 +45,7 @@ export const Navbar = () => {
         </ScrollLink>
       </li>
       <li>
-        <RouterLink
-         activeClass="active"
-          to="/blog"
-          smooth={true}
-          duration={500}
-          className="text-lg cursor-pointer"
-        >
+        <RouterLink to="/blog" className="text-lg cursor-pointer">
           Blog
         </RouterLink>
       </li>
@@ -63,14 +53,8 @@ export const Navbar = () => {
   );
 
   return (
-    <div
-      className="bg-black text-white w-full mx-auto
-     sticky top-0 z-50"
-    >
-      <div
-        className={`navbar bg-black shadow-md 
-       transition-all duration-300 max-w-7xl mx-auto`}
-      >
+    <div className="bg-black text-white w-11/12 mx-auto sticky top-0 z-50">
+      <div className="navbar bg-black shadow-md transition-all duration-300">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -81,13 +65,12 @@ export const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                {" "}
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
+                />
               </svg>
             </div>
             <ul
@@ -97,20 +80,22 @@ export const Navbar = () => {
               {menu}
             </ul>
           </div>
-          <RouterLink to="/" className=" lg:text-2xl text-xl font-semibold lg:font-extrabold text-[#8A2BE2]">
-            Adnan <span className="text-white"> Rony</span>
+          <RouterLink
+            to="/"
+            className="lg:text-2xl text-xl font-semibold lg:font-extrabold text-[#8A2BE2]"
+          >
+            Adnan <span className="text-white">Rony</span>
           </RouterLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menu}</ul>
         </div>
-        <div className="navbar-end  ">
+        <div className="navbar-end">
           <button className="hidden md:block">
             <a
               href="/adnanronymernDeveloper.pdf"
               download
-              className="btn bg-[#8A2BE2] border-none text-white 
-     hover:bg-violet-700"
+              className="btn bg-[#8A2BE2] border-none text-white hover:bg-violet-700"
             >
               Download Resume
             </a>

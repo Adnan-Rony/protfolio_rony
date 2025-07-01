@@ -76,7 +76,7 @@ export const ContactPage = () => {
               <h5 className="md:text-base font-bold text-main-color">
                 Enhance your web presence with my expertise
               </h5>
-              <h1 className=" text-3xl sm:text-4xl md:text-5xl  lg:text-6xl/18 font-bold text-[#8A2BE2]">
+              <h1 className=" text-2xl sm:text-4xl md:text-5xl  lg:text-6xl/18 font-semibold text-[#8A2BE2]">
                 Need a Website? <br /> Let’s Talk.
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl">

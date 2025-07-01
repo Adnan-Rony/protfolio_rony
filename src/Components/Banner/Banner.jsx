@@ -37,7 +37,7 @@ export const Banner = () => {
             <div className="flex gap-4 mt-6">
               <a href="/adnanronymernDeveloper.pdf" download>
                 <button
-                  className="btn bg-black text-white border border-white
+                  className="btn p-2 bg-black text-white border border-white
     hover:bg-[#8A2BE2]
       hover:text-white hover:border-none transition duration-500 ease-in-out"
                 >

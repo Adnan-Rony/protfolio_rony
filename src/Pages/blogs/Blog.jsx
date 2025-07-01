@@ -48,7 +48,7 @@ const Blog = () => {
 
         {!isLoading && topFourBlogs.length > 0 && (
           <>
-            <div className="grid grid-cols-1 my-10 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 my-10 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-w-7xl mx-auto ">
               {topFourBlogs.map((blog) => (
                 <Link key={blog._id} to={`/blogs/${blog._id}`}>
                   <div className="bg-black  rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden lg:h-[510px] py-1">

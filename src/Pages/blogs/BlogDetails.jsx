@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import DOMPurify from "dompurify";
-import he from "he";
+
 import BlogdeatailsSkeleton from "./BlogdeatailsSkeleton.jsx";
 import { extractHeadingsFromHTML } from './../../lib/extractHeadings';
 
@@ -34,7 +34,9 @@ const BlogDetails = () => {
 
 
   return (
-    <div className=" min-h-screen text-white">
+ <div>
+
+     <div className=" min-h-screen text-white">
         <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main Content */}
         <div className="bg-black lg:col-span-2 px-4 py-8 rounded-xl shadow-sm">
@@ -85,6 +87,7 @@ const BlogDetails = () => {
         
       </div>
     </div>
+ </div>
   );
 };
 

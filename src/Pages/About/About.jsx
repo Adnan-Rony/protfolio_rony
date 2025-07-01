@@ -6,7 +6,7 @@ export const About = () => {
     <div className="max-w-4xl mx-auto text-center">
       <h2 className="text-3xl font-semibold mb-6">About Me</h2>
       <p className="text-lg text-gray-200 mb-8">
-        Hi there! I’m <strong>Tamjid Ahmed</strong>, a junior web developer with a passion for building interactive and visually appealing web experiences. My journey into web development began a few years ago, and ever since, I’ve been diving deep into JavaScript, HTML, CSS, and React.js. I'm constantly looking to enhance my skills and learn new technologies that help me create dynamic, responsive websites. Working with the MERN stack has opened up exciting opportunities, and I’m always eager to explore more.
+        Hi there! I’m <strong>Adnan Rony</strong>, a junior web developer with a passion for building interactive and visually appealing web experiences. My journey into web development began a few years ago, and ever since, I’ve been diving deep into JavaScript, HTML, CSS, and React.js. I'm constantly looking to enhance my skills and learn new technologies that help me create dynamic, responsive websites. Working with the MERN stack has opened up exciting opportunities, and I’m always eager to explore more.
       </p>
     
       
