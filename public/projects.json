@@ -1,0 +1,48 @@
+[
+  {
+    "name": "TechDev | E-Commerce Website",
+    "image": "https://i.ibb.co/7t5JXHpp/Screenshot-2025-05-20-192339.png",
+    "detailsPage": "/projects/resume360",
+    "techStack": ["React", "Node.js", "Mongoose", "Express.js"],
+    "description": "Tech Dev is a modern eCommerce platform I built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It features user authentication, product listings, shopping cart, and secure checkout. The frontend is styled with Tailwind CSS, and the backend includes JWT-based role management for admin and users. Tech Dev reflects my skills in full-stack development and responsive UI design.",
+    "liveLink": "https://ecommercetechdev.vercel.app/",
+    "githubRepo": "https://github.com/Adnan-Rony/Ecommerce",
+    "challenges": "Implementing drag-and-drop features and ensuring responsive design across templates.",
+    "futurePlans": "Adding analytics for resume performance, expanding AI suggestions, and integrating export options in DOCX format.",
+    "collaboration": false,
+    "RoleAnother": true,
+    "Role": "Front-End",
+    "running":false
+    
+  },
+  {
+    "name": "DevThroughts | Blogging Website",
+    "image": "https://i.ibb.co/Rp0YX8Vx/Screenshot-2025-05-22-202258.png",
+    "detailsPage": "/projects/resume360",
+    "techStack": ["React", "Node.js", "Mongoose", "Express.js"],
+    "description": "This is a full-stack personal blogging platform where users can create, edit, and share blogs. The frontend is built with React.js and Tailwind CSS, offering a clean and responsive user interface. The backend is powered by Node.js, Express.js, and MongoDB, following the MVC architecture with a service layer for better scalability and code organization..",
+    "liveLink": "https://devthought.vercel.app/",
+    "githubRepo": "https://github.com/Adnan-Rony/PersonalBlog",
+    "challenges": "Implementing drag-and-drop features and ensuring responsive design across templates.",
+    "futurePlans": "Adding analytics for resume performance, expanding AI suggestions, and integrating export options in DOCX format.",
+    "collaboration": false,
+    "RoleAnother": true,
+    "Role": "Front-End",
+      "running":false
+  },
+  {
+    "name": "Smart Job Placement Portal",
+    "image": "https://miro.medium.com/v2/resize:fit:751/1*E_9if-cTKrRJpi837TMbUg.png",
+    "detailsPage": "/projects/resume360",
+    "techStack": ["React", "Node.js", "Mongoose", "Express.js"],
+    "description": "The Smart Job Placement Portal is a web application designed to streamline the recruitment process for students, employers, and university administrators. This MERN (MongoDB, Express.js, React.js, Node.js) stack-based platform helps students create resumes, build portfolios, apply for jobs, and get matched with suitable job opportunities. ",
+    "liveLink": "",
+    "githubRepo": "https://github.com/Adnan-Rony/University-Career-Placement",
+    "challenges": "Implementing drag-and-drop features and ensuring responsive design across templates.",
+    "futurePlans": "Adding analytics for resume performance, expanding AI suggestions, and integrating export options in DOCX format.",
+    "collaboration": true,
+    "RoleAnother": true,
+    "Role": "Front-End",
+      "running":true
+  }
+]
