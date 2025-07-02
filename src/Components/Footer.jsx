@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 export const Footer = () => {
   return (
     <footer
-      className="footer flex flex-col md:flex-row
+      className="footer container flex flex-col md:flex-row
      justify-between  p-4 md:p-10 bg-black text-white   mx-auto"
     >
       <nav>

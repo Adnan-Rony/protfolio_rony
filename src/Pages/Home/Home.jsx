@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Banner } from "../../Components/Banner/Banner";
 import { Skills } from "../../Components/Skills/Skills";
 
@@ -6,7 +6,7 @@ import { Projects } from "../Projects/Projects";
 import { Education } from "@/Components/Education/Education";
 import { ContactPage } from "../Contact/ContactPage";
 
-import { Footer } from "@/Components/Footer";
+
 import Blog from "../blogs/Blog.jsx";
 
 
@@ -38,9 +38,7 @@ export const Home = () => {
         <ContactPage></ContactPage>
       </div>
       
-      <div id="" className="pt-10 md:pt-16">
-        <Footer></Footer>
-      </div>
+     
      </div>
 
 
