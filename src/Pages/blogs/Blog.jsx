@@ -27,12 +27,13 @@ const Blog = () => {
 //   console.log(blogs);
 
   // Filter and slice blogs
-  const peresonalBlog = blogs.filter(
-    (blog) =>
-      blog.categories?.some(
-        (cat) => cat.toLowerCase().trim() === "portfolio"
-      ) || blog.tags?.some((tag) => tag.toLowerCase().includes("portfolio"))
-  );
+const peresonalBlog = blogs.filter((blog) =>
+  blog.categories?.toLowerCase().trim() === "portfolio" ||
+  blog.tags?.some((tag) =>
+    tag.toLowerCase().includes("portfolio")
+  )
+);
+
 
   const topFourBlogs = peresonalBlog.slice(0, 3);
 

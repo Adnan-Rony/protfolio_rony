@@ -31,9 +31,9 @@ export const Home = () => {
       <div id="projects" className="py-10 md:py-16 ">
         <Projects></Projects>
       </div>
-      <div id="blog" className="py-10 md:py-16">
+      {/* <div id="blog" className="py-10 md:py-16">
         <Blog></Blog>
-      </div>
+      </div> */}
       <div id="contact" className="py-10 md:py-16">
         <ContactPage></ContactPage>
       </div>

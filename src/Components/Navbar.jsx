@@ -48,7 +48,7 @@ export const Navbar = () => {
           Contact
         </ScrollLink>
       </li>
-      <li>
+      {/* <li>
         <RouterLink
          activeClass="active"
           to="/blog"
@@ -58,7 +58,7 @@ export const Navbar = () => {
         >
           Blog
         </RouterLink>
-      </li>
+      </li> */}
     </>
   );
 

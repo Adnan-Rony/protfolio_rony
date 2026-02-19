@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import profile from "../../assets/profile-pic (6).png";
+import profile from "../../assets/IMG_20260128_170455.JPG";
 
 import { Dock, DockIcon } from "../magicui/dock";
 
